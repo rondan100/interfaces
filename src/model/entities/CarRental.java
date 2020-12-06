@@ -2,7 +2,7 @@ package model.entities;
 
 import java.util.Date;
 
-public class CarCentral {
+public class CarRental {
 
     private Date start;
     private Date finish;
@@ -10,10 +10,10 @@ public class CarCentral {
     private Vehicle vehicle;
     private Invoice invoice;
 
-    public CarCentral() {
+    public CarRental() {
     }
 
-    public CarCentral(Date start, Date finish, Vehicle vehicle) {
+    public CarRental(Date start, Date finish, Vehicle vehicle) {
         this.start = start;
         this.finish = finish;
         this.vehicle = vehicle;
